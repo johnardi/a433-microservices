@@ -1,5 +1,5 @@
 # Melakukan pull image node versi 14 dari Docker Hub
-FROM node:14-alpine
+FROM node:14-alpine3.17
 
 # Membuat sebuah Working Directory /app
 WORKDIR /app

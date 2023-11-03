@@ -10,7 +10,7 @@ docker images
 docker tag item-app:v1 ghcr.io/johnardi/item-app:v1
 
 # Log in to GitHub Packages
-echo $GHCR_TOKEN | docker login ghcr.io -u johnardi --password-stdin
+echo $CR_PAT | docker login ghcr.io -u johnardi --password-stdin
 
 # Push the image to GitHub Packages
 docker push ghcr.io/johnardi/item-app:v1

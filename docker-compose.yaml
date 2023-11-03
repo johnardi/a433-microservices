@@ -1,5 +1,5 @@
 # menggunakan docker compose version 3
-version: '3'
+version: "3.7"
 
 # inisialisasi pembuatan services atau container
 services:
