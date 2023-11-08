@@ -18,7 +18,7 @@ services:
 
   # membuat services atau container bernama item-app untuk aplikasi web berbasis node js
   item-app:
-    # mengunduh image item-app:v1 dari ghcr.io dengan user johnardi
+    # mengunduh image item-app:v1 dari Docker Hub dengan user johnardi
     image: ardi0104/item-app:v1
     # Menerapkan restart policy pada berkas docker-compose.yml agar container selalu restart ketika terhenti
     restart: always
