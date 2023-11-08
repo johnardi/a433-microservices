@@ -7,7 +7,7 @@ docker build -t item-app:v1 .
 docker images
 
 # Log in to Docker Hub
-cat ../dockerpashub.txt | docker login -u ardi0104 --password-stdin
+echo $PASSWORD_DOCKER_HUB | docker login -u ardi0104 --password-stdin
 
 # Rename the image to match Docker Hub format
 docker tag item-app:v1 ardi0104/item-app:v1
