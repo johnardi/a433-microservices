@@ -4,7 +4,7 @@ FROM node:14-alpine3.17
 # Membuat sebuah Working Directory /app
 WORKDIR /app
 
-# Melakukan copy pada seluruh source code ke working directory di container
+# Melakukan copy pada seluruh source code ke working directory di container.
 COPY . .
 
 # Membuat environment atau menentukan agar aplikasi dapat berjalan dalam production mode dan menggunakan container bernama item-db sebagai database host.
