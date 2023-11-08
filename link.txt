@@ -1,0 +1,2 @@
+Github Repository: https://github.com/johnardi/a433-microservices/tree/proyek-pertama
+Dockerhub Image Repository:  https://hub.docker.com/r/ardi0104/item-app
