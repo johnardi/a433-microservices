@@ -1,0 +1,7 @@
+github : https://github.com/johnardi/a433-microservices.git
+Karsajobs Github : https://github.com/johnardi/a433-microservices/tree/karsajobs
+Karsajobs-ui Github : https://github.com/johnardi/a433-microservices/tree/karsajobs-ui
+
+Github Package
+Karsajobs : ghcr.io/johnardi/karsajobs:latest
+Karsajobs-ui : ghcr.io/johnardi/karsajobs-ui:latest
