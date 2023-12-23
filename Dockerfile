@@ -1,6 +1,6 @@
 FROM node:18-alpine as base
 WORKDIR /src
-COPY . .
+COPY package*.json ./
  
 FROM base as production
 ENV NODE_ENV=production
@@ -15,5 +15,6 @@ RUN chmod +x /bin/wait-for-it.sh
  
 ENV NODE_ENV=development
 RUN npm install
-COPY . .
+COPY ./*.js ./
+EXPOSE 3000
 CMD ["node", "index.js"]
